@@ -4,7 +4,7 @@ export const getUserFromStorage = () => {
 
   try {
     const parsed = JSON.parse(userInfo);
-    return parsed; // ✅ return full object (includes token)
+    return parsed; // ✅ return full user data
   } catch (error) {
     console.error("Error parsing userInfo:", error);
     return null;
