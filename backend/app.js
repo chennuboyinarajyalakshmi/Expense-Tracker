@@ -20,10 +20,14 @@ mongoose
 
 //! CORS Configuration
 const corsOptions = {
-  origin: ["http://localhost:5173"], // frontend URL
+  origin: [
+    "http://localhost:5173",
+    "https://expense-tracker-frontend.vercel.app"
+  ],
   credentials: true,
 };
 app.use(cors(corsOptions));
+
 
 //! Middleware
 app.use(express.json());
