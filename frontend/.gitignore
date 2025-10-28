@@ -1,17 +1,39 @@
-# Node dependencies
+# Node modules
 node_modules/
 
-# Environment files
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+.env.test
 
-# Build folders
-build/
+# Build output
 dist/
-
-# macOS system file
-.DS_Store
+build/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Local environment files
+*.local
