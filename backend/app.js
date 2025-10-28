@@ -22,11 +22,12 @@ mongoose
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://expense-tracker-frontend.vercel.app"
+    "https://expense-tracker-git-main-rajyalakshmi-chennuboyinas-projects.vercel.app"
   ],
   credentials: true,
 };
 app.use(cors(corsOptions));
+
 
 
 //! Middleware
