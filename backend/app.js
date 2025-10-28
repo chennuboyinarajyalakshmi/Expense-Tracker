@@ -21,12 +21,16 @@ mongoose
 //! CORS Configuration
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
-    process.env.FRONTEND_URL, // ✅ from .env or Render Environment
+    "http://localhost:5173", // local dev
+    "https://expense-tracker-lime-six-51.vercel.app",
+    "https://expense-tracker-git-main-rajyalakshmi-chennuboyinas-projects.vercel.app",
+    "https://expense-tracker-sif6a5zsa-rajyalakshmi-chennuboyinas-projects.vercel.app",
   ],
   credentials: true,
 };
+
 app.use(cors(corsOptions));
+
 
 
 
