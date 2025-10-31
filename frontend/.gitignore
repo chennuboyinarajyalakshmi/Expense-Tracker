@@ -22,7 +22,6 @@ yarn-debug.log*
 pnpm-debug.log*
 
 # System files
-.DS_Store
 Thumbs.db
 
 # IDE/editor settings
@@ -35,3 +34,4 @@ coverage/
 # Temp files
 tmp/
 temp/
+
