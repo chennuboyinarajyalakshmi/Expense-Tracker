@@ -21,7 +21,7 @@ mongoose
 //! CORS Configuration
 const corsOptions = {
   origin: [
-    "http://localhost:5173", // local dev
+    "http://localhost:5173", // local host port
     "https://expense-tracker-lime-six-51.vercel.app",
     "https://expense-tracker-git-main-rajyalakshmi-chennuboyinas-projects.vercel.app",
     "https://expense-tracker-sif6a5zsa-rajyalakshmi-chennuboyinas-projects.vercel.app",
