@@ -15,8 +15,8 @@ const app = express();
 //! Connect to MongoDB
 mongoose
   .connect(process.env.MONGODB_URL)
-  .then(() => console.log("✅ MongoDB Connected Successfully"))
-  .catch((err) => console.error("❌ MongoDB Connection Failed:", err.message));
+  .then(() => console.log("MongoDB Connected Successfully"))
+  .catch((err) => console.error(" MongoDB Connection Failed:", err.message));
 
 //! CORS Configuration
 const corsOptions = {
@@ -48,4 +48,4 @@ app.use(errorHandler);
 
 //! Start the Server
 const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
