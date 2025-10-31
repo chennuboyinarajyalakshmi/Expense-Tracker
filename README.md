@@ -26,8 +26,6 @@ It helped me understand how to connect frontend and backend, handle APIs, and wo
 - RESTful APIs for adding, listing, and deleting expenses  
 - MongoDB connection (local or Atlas)  
 - Basic data validation before saving
-
-### Bonus (Optional)
 - JWT-based login/signup  
 - Filter or search by category/date  
 - Charts using Recharts or Chart.js
